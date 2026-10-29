@@ -1,9 +1,13 @@
-"""This is a basic profile with two hosts connected by a router.
-Instructions:
-Wait for the profile instance to start, then log in to each node by clicking on it in the topology and choosing the `shell` menu item. 
 """
+## UDP
 
-"""This is a basic profile with two hosts connected by a router.
+This profile includes two hosts connected by a router.
+
+Lab instructions:
+
+- [Reserve resources on CloudLab](https://ffund.github.io/tcp-ip-essentials/lab-udp/reserve-cloudlab)
+- [Connectionless communication](https://ffund.github.io/tcp-ip-essentials/lab-udp/connectionless)
+
 Instructions:
 Wait for the profile instance to start, then log in to each node by clicking on it in the topology and choosing the `shell` menu item.
 """
@@ -57,4 +61,3 @@ link_1.addInterface(iface1)
 
 # Print the generated rspec
 pc.printRequestRSpec(request)
-
